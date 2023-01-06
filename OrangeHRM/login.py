@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 class Login():
     def login_valid(self):
         driver = webdriver.Firefox(
-            executable_path="E:\\Offline_Batch_09\\Tools\\geckodriver-v0.32.0-win64\\geckodriver.exe")
+            executable_path="F:\\SQA\\Batch09\\AutomationBITM09\\Drivers\\geckodriver.exe")
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         time.sleep(5)
 
@@ -33,7 +33,7 @@ class Login():
 
     def login_invalid(self):
         driver = webdriver.Firefox(
-            executable_path="E:\\Offline_Batch_09\\Tools\\geckodriver-v0.32.0-win64\\geckodriver.exe")
+            executable_path="F:\\SQA\\Batch09\\AutomationBITM09\\Drivers\\geckodriver.exe")
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         time.sleep(5)
 
