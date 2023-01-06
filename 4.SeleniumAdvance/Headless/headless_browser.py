@@ -10,7 +10,7 @@ class Headless():
         firefox_options.headless = True
 
         driver = webdriver.Firefox(
-            executable_path="E:\\Offline_Batch_09\\Tools\\geckodriver-v0.32.0-win64\\geckodriver.exe", options=firefox_options)
+            executable_path="F:\\SQA\\Batch09\\AutomationBITM09\\Drivers\\chromedriver.exe", options=firefox_options)
         driver.get("https://www.apple.com/")
         time.sleep(5)
 
@@ -19,7 +19,7 @@ class Headless():
         driver.execute_script("arguments[0].scrollIntoView(true);", watch)
 
         driver.get_screenshot_as_file(
-            "E:\\Offline_Batch_09\\Projects\\AutomationBITM09\\4.SeleniumAdvance\\Screenshot\\Apple_watch_headless.png")
+            "F:\\SQA\\Batch09\\AutomationBITM09\\4.SeleniumAdvance\\Screenshot\\Apple_watch_headless.png")
 
         driver.close()
 

@@ -3,11 +3,10 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
 class Screenshot():
     def capture_screenshot(self):
         driver = webdriver.Firefox(
-            executable_path="E:\\Offline_Batch_09\\Tools\\geckodriver-v0.32.0-win64\\geckodriver.exe")
+            executable_path="F:\\SQA\\Batch09\\AutomationBITM09\\Drivers\\chromedriver.exe")
         driver.get("https://www.apple.com/")
         time.sleep(5)
 
