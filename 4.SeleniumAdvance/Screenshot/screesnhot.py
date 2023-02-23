@@ -3,6 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 class Screenshot():
     def capture_screenshot(self):
         driver = webdriver.Firefox(
@@ -16,8 +17,6 @@ class Screenshot():
 
         driver.get_screenshot_as_file(
             "E:\\Offline_Batch_09\\Projects\\AutomationBITM09\\4.SeleniumAdvance\\Screenshot\\Apple_watch.png")
-
-        
 
         driver.close()
 

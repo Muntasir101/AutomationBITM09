@@ -1,3 +1,4 @@
+# Data driven testing
 from selenium import webdriver
 import pandas as pd
 from selenium.webdriver.common.by import By
@@ -38,7 +39,7 @@ for index, row in data.iterrows():
     submit_button.click()
 
     # assert the expected outcome
-    #assert "Welcome, " + row["Username"] in driver.page_source
+    # assert "Welcome, " + row["Username"] in driver.page_source
 
 # close the webdriver instance
 driver.quit()
