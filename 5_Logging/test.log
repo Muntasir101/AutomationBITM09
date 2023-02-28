@@ -8,3 +8,13 @@ INFO:root:Click to Login button
 INFO:root:Verifying Login
 INFO:root:Login successful.Test Passed
 INFO:root:Closing browser window
+INFO:root:Navigating to login page
+INFO:root:Locating email fields
+INFO:root:Locating password fields
+INFO:root:Locating Login button
+INFO:root:Entering Email
+INFO:root:Entering Password
+INFO:root:Click to Login button
+INFO:root:Verifying Login
+INFO:root:Login successful.Test Passed
+INFO:root:Closing browser window

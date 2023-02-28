@@ -5,13 +5,12 @@ from selenium.webdriver.common.by import By
 import logging
 
 
-class Login():
+class Login:
     def login_valid(self):
         # Configure logging
         logging.basicConfig(filename='test.log', level=logging.INFO)
 
-        driver = webdriver.Firefox(
-            executable_path="F:\\SQA\\Batch09\\AutomationBITM09\\Drivers\\geckodriver.exe")
+        driver = webdriver.Firefox()
         logging.info('Navigating to login page')
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         time.sleep(5)
